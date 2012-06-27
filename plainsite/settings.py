@@ -157,4 +157,4 @@ LOGGING = {
 
 ############### Heroku addon
 import dj_database_url
-DATABASES = {'default': dj_database_url.config(default='sqlite://///Users/blaze/Sites/clients/blogzine/dev.db')}
+DATABASES = {'default': dj_database_url.config(default='sqlite:////Users/blaze/Sites/clients/joseph/plainsite/dev.db')}
