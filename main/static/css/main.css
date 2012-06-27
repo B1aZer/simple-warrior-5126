@@ -1,0 +1,9 @@
+#id_notes {
+    height: 50px;
+}
+.table thead .sort {
+    background: url('/static/img/sort_both.png') no-repeat center right;
+}
+#sub {
+    margin-top:15px;
+}

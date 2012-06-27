@@ -1,0 +1,12 @@
+<div class="fieldWrapper{% if message.errors %} errors{% endif %}">
+    <div>{{ message.label }}:</div>
+    {% if message.errors %}
+        <ul class="errorlist">
+        {% for error in message.errors %}
+            <li><strong>{{ error|escape }}</strong></li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    {{ message }}
+</div>
+
